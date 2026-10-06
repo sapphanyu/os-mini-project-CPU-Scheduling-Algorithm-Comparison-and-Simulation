@@ -44,7 +44,8 @@ def priority_scheduling(processes):
             is_completed[idx] = True
             completed_count += 1
         else:
-            # ถ้า ณ เวลาปัจจุบันยังไม่มี process ไหนมาถึง ให้เดินเวลาไป +1
-            current_time += 1
+            # ถ้า ณ เวลาปัจจุบันยังไม่มี process ไหนมาถึง ให้ข้ามเวลาไปยัง process ที่มาถึงเร็วที่สุด
+            uncompleted_arrivals = [p.arrival_time for i, p in enumerate(proc_list) if not is_completed[i]]
+            current_time = min(uncompleted_arrivals)
 
     return gantt_log, proc_list
