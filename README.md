@@ -1,3 +1,10 @@
+หัวข้อ CPU Scheduling Algorithm Comparison & Simulation
+ชื่อกลุ่ม จิงๆเอาอะไรก็ได้ นี่คิดไม่ออก
+สมาชิกกลุ่ม
+1. นางสาวญาทิชา จันทรศรีสุริยวงศ์ 673380034-7
+2. นายสัพพัญญู คำตุ้ม 673380066-4
+3. นางสาวปรนันท์ บุสดีวงค์ 673380276-3
+
 # CPU Scheduling Algorithm Simulator & Comparison
 
 โปรแกรมจำลองและเปรียบเทียบประสิทธิภาพการทำงานของ **CPU Scheduler** ในระบบปฏิบัติการ (Operating System) พัฒนาด้วยภาษา **Python 3** ทำหน้าที่รับข้อมูล Process (PID, Arrival Time, Burst Time, Priority) แล้วคำนวณการจัดลำดับการทำงานของ CPU ตาม Scheduling Algorithms ต่างๆ พร้อมแสดงผลลัพธ์เชิงสถิติผ่านตารางสรุป และแสดงแผนภาพ **Gantt Chart** ด้วย `matplotlib`
