@@ -29,6 +29,9 @@ def plot_gantt_chart(results, save_path="gantt_chart.png", show=True):
     pid_color_map = {pid: colors[i % len(colors)] for i, pid in enumerate(sorted_pids)}
     y_positions = {pid: i for i, pid in enumerate(sorted_pids)}
 
+    # เคลียร์ figure เดิมที่อาจค้างอยู่ใน memory ก่อนสร้างใหม่
+    plt.close('all')
+
     num_algos = len(results)
     fig, axes = plt.subplots(num_algos, 1, figsize=(11, 2.5 * num_algos), sharex=True)
 
@@ -68,3 +71,7 @@ def plot_gantt_chart(results, save_path="gantt_chart.png", show=True):
             plt.show()
         except Exception as e:
             print(f"[!] ไม่สามารถเปิดหน้าต่าง GUI ได้ ({e}) สามารถเปิดดูภาพจากไฟล์ '{save_path}' ได้โดยตรง")
+        finally:
+            plt.close(fig)
+    else:
+        plt.close(fig)

@@ -39,7 +39,8 @@ os-mini-project-CPU-Scheduling-Algorithm-Comparison-and-Simulation/
 ├── README.md
 ├── docs/
 │   ├── REPORT.md            # เล่มรายงานโครงงานฉบับสมบูรณ์ (Full Project Report)
-│   └── PRESENTATION.md      # โครงร่างสไลด์และบทพูดนำเสนอ (Presentation Deck & Script)
+│   ├── PRESENTATION.md      # โครงร่างสไลด์และบทพูดนำเสนอ (Presentation Deck & Script)
+│   └── DEMO_SCRIPT.md       # สคริปต์ขั้นตอนสาธิตโค้ดและรันโปรแกรมสด (Live Demo Script)
 └── cpu-scheduler-sim/
     ├── models/
     │   ├── __init__.py
