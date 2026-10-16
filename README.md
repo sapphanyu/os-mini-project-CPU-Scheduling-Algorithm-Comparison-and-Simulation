@@ -5,6 +5,8 @@
 2. นายสัพพัญญู คำตุ้ม 673380066-4
 3. นางสาวปรนันท์ บุสดีวงค์ 673380276-3
 
+https://drive.google.com/file/d/1zhl3u7M2KaqThCWfWRorWWg9Kojwo516/view?fbclid=IwY2xjawU_JDxleHRuA2FlbQIxMABwZG9mBWJyaWQRMUo4djE0bXJubk8zdnVPVmhzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEe2IBWt8zu2oyHpXFL9XFqbMl40V99BN6ctQsmQ5kFLHM5mnqZAelVN-nt5f4_aem_vlBaS8Zo5qofz4eNevH-2w
+
 # CPU Scheduling Algorithm Simulator & Comparison
 
 โปรแกรมจำลองและเปรียบเทียบประสิทธิภาพการทำงานของ **CPU Scheduler** ในระบบปฏิบัติการ (Operating System) พัฒนาด้วยภาษา **Python 3** ทำหน้าที่รับข้อมูล Process (PID, Arrival Time, Burst Time, Priority) แล้วคำนวณการจัดลำดับการทำงานของ CPU ตาม Scheduling Algorithms ต่างๆ พร้อมแสดงผลลัพธ์เชิงสถิติผ่านตารางสรุป และแสดงแผนภาพ **Gantt Chart** ด้วย `matplotlib`
